@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { BarChart, Bar, XAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import api from '../services/api';
 import DashboardLayout from '../layouts/DashboardLayout';
-import Glasscard from '../components/Glasscard';
-import Rolebadge from '../components/Rolebadge';
+import Glasscard from '../components/GlassCard';
+import Rolebadge from '../components/RoleBadge';
 
 export default function AdminDashboard() {
   const [stats, setStats] = useState({ totalUsers: 0, totalStartups: 0, totalInvestors: 0, totalMessages: 0 });
