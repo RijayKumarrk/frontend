@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import api from '../services/api';
 import DashboardLayout from '../layouts/DashboardLayout';
-import Glasscard from '../components/Glasscard';
+import Glasscard from '../components/GlassCard';
 import Input from '../components/Input';
 import Button from '../components/Button';
-import Rolebadge from '../components/Rolebadge';
+import Rolebadge from '../components/RoleBadge';
 
 export default function StartupDashboard() {
   const[formData, setFormData] = useState({ companyName: '', founderName: '', businessDomain: '', location: '', fundingRequired: '', equityOffered: '', pitchSummary: '', website: '', about: '', contactEmail: '', contactNumber: '' });
