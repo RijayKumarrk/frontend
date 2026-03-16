@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import api from '../services/api';
-import Navbar from '../components/Navbar';
-import Glasscard from '../components/Glasscard';
+import Navbar from '../components/NavBar';
+import Glasscard from '../components/GlassCard';
 import Button from '../components/Button';
-import Rolebadge from '../components/Rolebadge';
+import Rolebadge from '../components/RoleBadge';
 
 export default function StartupDetails() {
   const { id } = useParams();
