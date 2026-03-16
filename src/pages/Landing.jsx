@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/NavBar';
 import Button from '../components/Button';
-import Glasscard from '../components/Glasscard';
+import Glasscard from '../components/GlassCard';
 
 export default function Landing() {
   const navigate = useNavigate();
