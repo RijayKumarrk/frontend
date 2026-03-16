@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import api from '../services/api';
 import DashboardLayout from '../layouts/DashboardLayout';
-import Glasscard from '../components/Glasscard';
+import Glasscard from '../components/GlassCard';
 import Button from '../components/Button';
 import Input from '../components/Input';
-import Rolebadge from '../components/Rolebadge';
+import Rolebadge from '../components/RoleBadge';
 
 export default function InvestorDashboard() {
   const navigate = useNavigate();
