@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import api from '../services/api';
-import Glasscard from '../components/Glasscard';
+import Glasscard from '../components/GlassCard';
 import Button from '../components/Button';
 
 export default function VerifyEmail() {
