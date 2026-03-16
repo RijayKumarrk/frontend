@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Glasscard from '../components/Glasscard';
+import Navbar from '../components/NavBar';
+import Glasscard from '../components/GlassCard';
 
 // NOTICE: We added 'activeTab' and 'setActiveTab' so the buttons actually work!
 export default function DashboardLayout({ children, sidebarItems, userProfile, activeTab, setActiveTab }) {
