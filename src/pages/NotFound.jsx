@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Button from '../components/Button';
-import Glasscard from '../components/Glasscard';
+import Glasscard from '../components/GlassCard';
 
 export default function NotFound() {
   const navigate = useNavigate();
